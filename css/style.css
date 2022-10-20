@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  position: relative;
+  width: 1440px;
+  height: 5470px;
+  background-color: #131218;
+}
+
+.header-content {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.top-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 105px;
+  gap: 223px;
+}
+.header-logotype {
+  width: 69px;
+  height: 30px;
+}
