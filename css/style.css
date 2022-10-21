@@ -109,6 +109,65 @@ footer {
 }
 /* Содержимое */
 
+.advantages {
+}
+
+.advantages-title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 41px;
+  text-align: center;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+}
+
+.advantages-reliability-card {
+  display: flex;
+}
+
+.advantages-reliability-card-box {
+}
+.advantages-reliability-card-box h3 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 29px;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+}
+
+.advantages-reliability-card-box ul li {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.advantages-button {
+  width: 287px;
+  height: 56px;
+  left: 576px;
+  top: 5226px;
+  background: #cafc01;
+  border-radius: 8px;
+  margin-right: 472px;
+  margin-left: 471px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: #000000;
+}
+
 /* Подвал */
 .footer-content {
   display: flex;
