@@ -15,6 +15,17 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Mulish-Bold";
+  src: url(../fonts/Mulish-Bold.woff) format("woff"),
+    url(../fonts/Mulish-Bold.woff2) format("woff2"),
+    url(../fonts/Mulish-Bold.ttf) format("truetype"),
+    url(../fonts/Mulish-Bold.eot) format("eot"),
+    url(../fonts/Mulish-Bold.eot?) format("eot");
+  font-weight: 700;
+  font-style: normal;
+}
+
 a {
   text-decoration: none;
   color: #000000;
@@ -108,6 +119,101 @@ footer {
   color: #cafc01;
 }
 /* Содержимое */
+
+.garant-service {
+  display: flex;
+  flex-direction: row;
+  padding: 0 105px;
+}
+
+.garant-service-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.garant-service-card-box {
+  width: 568px;
+  height: 219px;
+  padding: 183px 0 226px;
+}
+
+.garant-service-card-box-title {
+  width: 510px;
+  height: 123px;
+  font-family: "Mulish-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 41px;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.garant-service-card-box-title span {
+  border-bottom: 2px solid #b153e0;
+}
+
+.garant-service-card-box-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.garant-service-card-box-buttons button {
+  width: 287px;
+  height: 56px;
+  background: #cafc01;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: #000000;
+}
+
+.play-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.play-button img {
+  width: 56px;
+  height: 56px;
+}
+
+.play-button-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+}
+
+.garant-service-card-picture img {
+}
+
+.payment-systems {
+  width: 1440px;
+  height: 112px;
+  background: #b153e0;
+}
+
+.payments {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 33px 105px 30px;
+  align-items: center;
+}
 
 .advantages {
 }
