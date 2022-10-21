@@ -124,6 +124,7 @@ footer {
   display: flex;
   flex-direction: row;
   padding: 0 105px;
+  height: 628px;
 }
 
 .garant-service-card {
@@ -134,7 +135,8 @@ footer {
 .garant-service-card-box {
   width: 568px;
   height: 219px;
-  padding: 183px 0 226px;
+  padding: 183px 0px 226px;
+  margin-right: 64px;
 }
 
 .garant-service-card-box-title {
@@ -196,9 +198,14 @@ footer {
   line-height: 24px;
   letter-spacing: 0.012em;
   color: #ffffff;
+  margin-left: 16px;
 }
 
-.garant-service-card-picture img {
+.garant-service-card-picture {
+  width: 600px;
+  height: 628px;
+  background-size: contain;
+  margin-top: -60px;
 }
 
 .payment-systems {
