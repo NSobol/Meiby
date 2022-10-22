@@ -92,10 +92,6 @@ footer {
   opacity: 0.7;
 }
 
-.menu-link:hover {
-  color: #cafc01;
-}
-
 .menu-authorization {
   width: 221px;
   height: 20px;
@@ -114,8 +110,7 @@ footer {
   color: #ffffff;
   opacity: 0.7;
 }
-
-.menu-authorization-item a:hover {
+.menu-authorization-item-open a {
   color: #cafc01;
 }
 /* Содержимое */
@@ -150,6 +145,7 @@ footer {
   letter-spacing: 0.012em;
   color: #ffffff;
   margin-bottom: 40px;
+  padding-right: 40px;
 }
 
 .garant-service-card-box-title span {
@@ -435,15 +431,93 @@ footer {
 .servis-scheme-card {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.servis-scheme-box-left {
+  width: 495px;
+}
+
+.expanded {
+  height: 153px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #cafc01;
+  border-radius: 10px;
+  margin-bottom: 24px;
+  margin-top: 2px;
+}
+.expanded .servis-scheme-stage {
+  margin-bottom: 0;
+  padding-bottom: 14px;
+  background: #cafc01;
+}
+.servis-scheme-stage {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 16px;
+  gap: 8px;
+  width: 495px;
+  height: 73px;
+  background: #27262b;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.servis-scheme-stage-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+
+  width: 451px;
+  height: 41px;
+}
+
+.servis-scheme-stage-text div {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 29px;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+}
+
+.expanded div {
+  color: #131218;
+}
+
+.expanded-text {
+  width: 350px;
+  height: 72px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-left: 60px;
+  margin-bottom: 16px;
+}
+
+.stage-text-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.stage-text-box img {
+  margin-right: 16px;
 }
 
 .servis-scheme-box-right {
   width: 316px;
-}
-.servis-scheme-box-right img {
-  margin-top: 13px;
+  margin-top: -15px;
 }
 
 .servis-scheme-box-right-title {
@@ -650,6 +724,7 @@ footer {
   width: 395px;
   height: 288px;
   padding-left: 25px;
+  padding-right: 46px;
 }
 .сonvenience-reliability-card-box ul li {
   list-style-type: disc;
