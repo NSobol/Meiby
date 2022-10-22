@@ -299,6 +299,122 @@ footer {
 .video {
   padding: 32px 105px;
 }
+
+.servis-work {
+  padding: 0 105px;
+  margin-bottom: 64px;
+}
+
+.servis-work-title {
+  text-align: center;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 41px;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+  margin-bottom: 36px;
+}
+
+.servis-work-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 49px;
+}
+
+.servis-work-button {
+  padding: 16px 24px;
+  gap: 10px;
+  height: 56px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.button1 {
+  width: 287px;
+  background: #cafc01;
+  border-radius: 8px 0px 0px 8px;
+  color: #131218;
+}
+
+.button2 {
+  width: 285px;
+  background: #27262b;
+  color: #cafc01;
+}
+
+.button3 {
+  width: 281px;
+  background: #27262b;
+  border-radius: 0px 8px 8px 0px;
+  color: #cafc01;
+}
+
+.servis-work-stages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+.servis-work-stage {
+  width: 246px;
+  height: 336px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stage1 {
+  padding: 0 15px;
+}
+
+.stage2 {
+  padding: 0 28px;
+}
+
+.stage3 {
+  padding: 0 33px;
+}
+
+.servis-work-stage img {
+  width: 180px;
+  height: 180px;
+}
+
+.servis-work-stage-title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.servis-work-stage-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
 .advantages {
   padding: 0 105px;
 }
