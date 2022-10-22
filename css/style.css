@@ -415,6 +415,99 @@ footer {
   opacity: 0.9;
 }
 
+.servis-scheme {
+  padding: 0 105px;
+  margin-bottom: 64px;
+}
+
+.servis-scheme-title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 41px;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.servis-scheme-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.servis-scheme-box-right {
+  width: 316px;
+}
+.servis-scheme-box-right img {
+  margin-top: 13px;
+}
+
+.servis-scheme-box-right-title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 29px;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 36px;
+  margin-bottom: 8px;
+}
+
+.servis-scheme-box-right-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.servis-scheme-box-right-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 10px;
+
+  width: 314px;
+  height: 56px;
+  background: #131218;
+  border: 1px solid #cafc01;
+  border-radius: 8px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+}
+
+.reviews {
+  padding: 0 105px;
+  margin-bottom: 64px;
+}
+.reviews-title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 41px;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+  text-align: center;
+}
+
 .advantages {
   padding: 0 105px;
 }
