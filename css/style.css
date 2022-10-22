@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: none;
 }
 
 @font-face {
@@ -114,7 +115,9 @@ footer {
   color: #cafc01;
 }
 /* Содержимое */
-
+.container {
+  position: relative;
+}
 .garant-service {
   display: flex;
   flex-direction: row;
@@ -200,8 +203,8 @@ footer {
 .garant-service-card-picture {
   width: 600px;
   height: 628px;
-  background-size: contain;
-  margin-top: -60px;
+  margin: 0;
+  overflow: hidden;
 }
 
 .payment-systems {
@@ -215,6 +218,14 @@ footer {
   justify-content: space-around;
   padding: 33px 105px 30px;
   align-items: center;
+}
+
+.chat-messages {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 1360px;
+  top: 778px;
 }
 
 .secure-transaction {
@@ -568,8 +579,8 @@ footer {
 }
 
 .reviews {
-  padding: 0 105px;
-  margin-bottom: 64px;
+  padding: 0;
+  margin-bottom: 58px;
 }
 .reviews-title {
   font-family: "Mulish";
@@ -580,6 +591,137 @@ footer {
   letter-spacing: 0.012em;
   color: #ffffff;
   text-align: center;
+  margin-bottom: 36px;
+}
+
+.reviews-carusel {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+ul.carusel {
+  width: 1230px;
+  position: relative;
+  list-style: none;
+  margin: 0 -210px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  width: 285px;
+  height: 228px;
+  margin-right: 30px;
+}
+
+.review-title-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.review-title-box div {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 8px;
+}
+
+.review-title-box img {
+  width: 36px;
+  height: 36px;
+}
+.review-title-box .avatar {
+  width: 36px;
+  height: 36px;
+  background: #b153e0;
+  border-radius: 3px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  padding: 6px 0;
+  text-align: center;
+}
+.review-body {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 8px;
+
+  width: 285px;
+  height: 176px;
+  background: #27262b;
+  border-radius: 4px;
+}
+
+.review-body-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.review-body-header-count {
+  padding: 4px 10px;
+  gap: 10px;
+
+  width: 96px;
+  height: 28px;
+  background: #131218;
+  border-radius: 8px;
+}
+
+.review-body-stars {
+  width: 100px;
+  height: 20px;
+  margin-bottom: 8px;
+}
+
+.review-body-stars img {
+  padding: 0;
+  margin: 0;
+}
+.review-body-text {
+  border-top: 1px solid #131218;
+  padding-top: 8px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: left;
+  color: #ffffff;
+  padding-right: 17px;
+}
+
+.review-body-text a {
+  color: #ffffff;
+  text-decoration: revert;
+}
+
+.reviews-slider {
+  text-align: center;
+  margin-top: 26px;
 }
 
 .advantages {
