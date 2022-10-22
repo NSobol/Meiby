@@ -177,3 +177,11 @@
   margin-bottom: 25px;
   padding-right: 26px;
 }
+
+.chat-messages1 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 1360px;
+  top: 680px;
+}

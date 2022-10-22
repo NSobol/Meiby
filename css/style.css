@@ -37,11 +37,11 @@ ul {
 }
 
 body {
+  position: relative;
   background-color: #131218;
 }
 header,
 footer {
-  position: relative;
   background-color: #27262b;
 }
 
