@@ -5,7 +5,7 @@
 }
 
 .container {
-  width: 1440px;
+  width: 100%;
   padding: 0 105px;
 }
 
@@ -46,14 +46,27 @@
   align-items: center;
 }
 
-.steps {
+.steps,
+.steps-texts {
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.steps-texts {
+  margin-top: 24px;
+  margin-bottom: 36px;
 }
 
 .step {
   width: 180px;
   height: 180px;
-
   border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .step img {
@@ -83,4 +96,140 @@
 
 .step6 {
   background-color: #b153e0;
+}
+
+.step-box {
+  width: 240px;
+  height: 109px;
+}
+.steps-arrow {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.step-title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+.step-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  padding: 0 12px;
+}
+
+.steps-text {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.transaction-stages {
+  width: 809px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.transaction-stages-title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 24px;
+}
+
+.transaction-stages-subtitle {
+  width: 810px;
+  height: 72px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 12px;
+  padding: 0 56px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+}
+
+.transaction-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 16px;
+  gap: 16px;
+  background: #27262b;
+  border-radius: 8px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 36px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+}
+
+.transaction-stage-title {
+  display: flex;
+  flex-direction: row;
+}
+
+.transaction-stage-title img {
+  margin-right: 8px;
+}
+
+.transaction-stage-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  padding-right: 18px;
+}
+
+.transaction-stage-box1 {
+  height: 232px;
+}
+
+.title2 {
+  padding-top: 0;
+  margin-top: 100px;
+}
+
+.transaction-stage-box5 {
+  width: 809px;
+  height: 165px;
+  margin-bottom: 91px;
+  padding-right: 38px;
+  border-left: 8px solid #fc0101;
+}
+
+.chat-messages1 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 1360px;
+  top: 680px;
 }
