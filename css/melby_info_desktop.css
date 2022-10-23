@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  padding: 0 105px;
+}
+
+.title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 41px;
+  text-align: center;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+  padding-top: 109px;
+  margin-bottom: 24px;
+}
+
+.subtitle {
+  width: 510px;
+  height: 72px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 110px;
+  padding: 0 20px;
+}
+
+.steps-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.steps {
+}
+
+.step {
+  width: 180px;
+  height: 180px;
+
+  border-radius: 50%;
+}
+
+.step img {
+  width: 80px;
+  height: 80px;
+  margin: 50px;
+}
+.step1 {
+  background-color: #ffffff;
+}
+
+.step2 {
+  background-color: #b153e0;
+}
+
+.step3 {
+  background-color: #cafc01;
+}
+
+.step4 {
+  background-color: #cafc01;
+}
+
+.step5 {
+  background-color: #ffffff;
+}
+
+.step6 {
+  background-color: #b153e0;
+}
