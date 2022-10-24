@@ -61,4 +61,267 @@ main {
   margin-right: 24px;
 }
 
+.mydeal-add {
+  margin-top: 71px;
+}
 
+.mydeal-add-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mydeal-add-header h1 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 41px;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+  margin-left: 24px;
+}
+
+.return {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 94px;
+  height: 24px;
+}
+
+.return a {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: #cafc01;
+}
+
+.deal-name {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 12.5px 0;
+}
+.deal-information {
+  width: 660px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 49px;
+  margin-bottom: 65px;
+}
+
+.deal-info-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.deal-info input {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(255, 255, 255, 0.7);
+  padding-left: 12px;
+
+  background: #2b2b2b;
+  border-radius: 8px;
+  border-color: transparent;
+}
+
+.deal-info-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 10px;
+  width: 323px;
+  height: 50px;
+  background: #2b2b2b;
+  border-radius: 8px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.deal-info-role input {
+  width: 323px;
+  height: 45px;
+  background: #2b2b2b;
+  border-radius: 8px;
+}
+
+.deal-info-role {
+  position: relative;
+}
+
+.arrow {
+  width: 20px;
+  height: 21px;
+  background: url(../images/arrow_drop_down_m.png) 0 0 no-repeat;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 278px;
+  top: 11px;
+  display: inline-block;
+}
+
+.deal-info-seller input {
+  width: 323px;
+  height: 45px;
+  background: #2b2b2b;
+  border-radius: 8px;
+}
+
+.deal-info-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 10px;
+
+  width: 323px;
+  height: 305px;
+
+  background: #2b2b2b;
+  border-radius: 8px;
+}
+
+.info-description {
+  width: 278px;
+  height: 285px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(255, 255, 255, 0.7);
+  padding-right: 26px;
+}
+.deal-info-cost input {
+  width: 287px;
+  height: 45px;
+  margin-right: 6px;
+}
+
+.deal-info-cost img {
+  margin-right: 12px;
+}
+
+.deal-info-term input {
+  width: 323px;
+  height: 45px;
+}
+
+.deal-calculation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 24px;
+  width: 649px;
+  height: 232px;
+  background: #27262b;
+  border: 1px solid #b153e0;
+  border-radius: 16px;
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 34px;
+}
+
+.deal-calculation h2 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+}
+
+.calculation {
+  width: 601px;
+  height: 136px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.calculation div {
+  width: 601px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-bottom: 1px solid #b153e0;
+}
+.calculation div:first-child {
+  padding-top: 0;
+}
+.calculation div:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.position-name {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.position-cost {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.deal-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.deal-button button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 10px;
+  width: 287px;
+  height: 56px;
+
+  background: #cafc01;
+  border-radius: 8px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: #000000;
+}
