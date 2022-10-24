@@ -1,0 +1,117 @@
+/*Стили страницы блокировки аккаунта*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e1e1e;
+}
+
+main {
+  width: 100%;
+}
+.container {
+  padding: 0 105px;
+}
+
+.block-account {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 24px 16px;
+  gap: 24px;
+
+  width: 604px;
+  height: 314px;
+
+  background: #131218;
+  border-radius: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9%;
+  margin-bottom: 9%;
+}
+
+.block-account-title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 29px;
+  text-align: left;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+  padding-left: 16px;
+}
+
+.block-account-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 0 71px 0 16px;
+  gap: 16px;
+
+  width: 572px;
+  height: 120px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.block-account-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.chat {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 10px;
+
+  width: 314px;
+  height: 56px;
+  background: #131218;
+  border: 1px solid #cafc01;
+  border-radius: 8px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+  margin-right: 24px;
+}
+
+.exit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 10px;
+
+  width: 234px;
+  height: 56px;
+  background: #cafc01;
+  border-radius: 8px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: #000000;
+}
