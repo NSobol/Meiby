@@ -1,0 +1,585 @@
+/*Стили страниц "Статус"*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1e1e1e;
+}
+
+main {
+  padding: 0 105px;
+}
+
+.agreement_transaction {
+  margin-top: 40px;
+  margin-bottom: 64px;
+  width: 100%;
+}
+
+.agreement_transaction-header {
+  height: 106px;
+  background: #27262b;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.status-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status-info img {
+  margin-left: 37px;
+  margin-right: 17px;
+}
+
+.status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+
+  width: 434px;
+  height: 41px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 41px;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+}
+
+.status span {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+}
+
+.arbitration {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 10px;
+  width: 149px;
+  height: 56px;
+  background: #131218;
+  border: 1px solid #fc0101;
+  border-radius: 8px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+}
+
+.deal-information {
+  width: 1009px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+}
+
+.deal-calculation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+
+  width: 100%;
+  height: 696px;
+  background: #27262b;
+  border-radius: 16px;
+}
+
+.deal-calculation h2 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+}
+
+.positions {
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid rgba(177, 83, 224, 0.7);
+}
+
+.positions:first-child {
+  margin-bottom: 8px;
+}
+
+.position-name {
+  width: 376px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.position-value {
+  width: 585px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.positions-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.buttons {
+  width: 1009px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin: 24px auto;
+}
+
+.freeze {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 10px;
+
+  width: 237px;
+  height: 56px;
+  background: #131218;
+  border-radius: 8px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: #cafc01;
+}
+
+.confirm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 10px;
+  margin-left: 24px;
+
+  width: 287px;
+  height: 56px;
+  background: #cafc01;
+  border-radius: 8px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: #000000;
+}
+
+.notification {
+  width: 1009px;
+  height: 48px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 36px;
+  padding: 0 40px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.chat {
+  width: 1009px;
+  height: 546px;
+  background-color: #27262b;
+  border-radius: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.chat-header {
+  position: relative;
+  height: 68px;
+  box-shadow: inset 0px -1px 0px rgba(177, 83, 224, 0.7);
+  border-radius: 16px 16px 0px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.chat-header div {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.chat-header h4 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.chat-header p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #666668;
+  text-align: center;
+}
+
+.chat-header img {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 24px;
+  top: 26px;
+}
+
+.chat-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 24px;
+  gap: 16px;
+  height: 430px;
+  background: #27262b;
+}
+
+.chat-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 10px;
+  gap: 10px;
+
+  width: 78px;
+  height: 21px;
+  background: #131218;
+  border-radius: 26px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 16px;
+}
+.messages-seller {
+  width: 961px;
+  height: 265px;
+}
+
+.messages-buyer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 8px;
+
+  width: 961px;
+  height: 63px;
+}
+.message-seller {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px;
+  gap: 3px;
+  width: 248px;
+  height: 63px;
+  background: #323232;
+  border-radius: 12px 12px 12px 0px;
+}
+
+.message-seller-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.message-seller-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  width: 224px;
+  height: 16px;
+  opacity: 0.7;
+}
+
+.message-author {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.message-time {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+
+.message-system {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px;
+  gap: 3px;
+
+  width: 384px;
+  height: 123px;
+
+  background: #323232;
+  border: 1px solid #cafc01;
+  border-radius: 12px 12px 12px 0px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.message-system-text {
+  width: 360px;
+  height: 80px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding-right: 34px;
+}
+.message-system-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  width: 360px;
+  height: 16px;
+  opacity: 0.7;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.message-administration {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px;
+  gap: 3px;
+
+  width: 384px;
+  height: 63px;
+  background: #323232;
+  border: 1px solid #b153e0;
+  border-radius: 12px 12px 12px 0px;
+}
+
+.message-administration-text {
+  width: 360px;
+  height: 20px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.message-administration-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  width: 360px;
+  height: 16px;
+  opacity: 0.7;
+}
+
+.message-buyer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px;
+  gap: 3px;
+
+  width: 254px;
+  height: 63px;
+  background: #b153e0;
+  border-radius: 12px 12px 0px 12px;
+}
+
+.message-buyer-text {
+  width: 230px;
+  height: 20px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.message-buyer-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  width: 230px;
+  height: 16px;
+  opacity: 0.7;
+}
+
+.chat-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0px;
+
+  width: 1009px;
+  height: 48px;
+
+  background: #27262b;
+  box-shadow: inset 0px 1px 0px #b153e0;
+  border-radius: 0px 0px 16px 16px;
+}
+
+.footer-message {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1009px;
+}
+
+.footer-message p {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 14px 0px;
+  gap: 10px;
+
+  width: 897px;
+  height: 48px;
+}
+
+span.green {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: #cafc01;
+  margin-right: 4;
+}
+
+.green img {
+  margin: 0;
+}
+
+.chat1 {
+  margin-top: 36px;
+}
