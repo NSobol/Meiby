@@ -1,0 +1,97 @@
+/*Стили страницы настроек акаунта*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1e1e1e;
+}
+
+.account-settings {
+  padding: 0 105px;
+}
+.account-settings-title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 41px;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+  margin-top: 71px;
+  margin-bottom: 191px;
+}
+
+.settings-form {
+  width: 668px;
+  margin-bottom: 264px;
+  margin-left: 281px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.settings-form label {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 16px;
+  padding: 12.5px 0;
+}
+
+.settings-form input {
+  width: 323px;
+  height: 45px;
+  background: #2b2b2b;
+  border-radius: 8px;
+  border: transparent;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(255, 255, 255, 0.7);
+  opacity: 0.6;
+  padding-left: 12px;
+  margin-bottom: 16px;
+}
+
+.settings-form button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 10px;
+  width: 323px;
+  height: 56px;
+  background: #cafc01;
+  border-radius: 8px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: #000000;
+}
+
+.labels {
+  width: 345px;
+  height: 239px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fields {
+  width: 323px;
+  border: none;
+}
