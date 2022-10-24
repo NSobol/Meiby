@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/melby_info_desktop.css" />
-
+    <link rel="stylesheet" href="css/registration.css" />
     <link rel="stylesheet" href="css/tablet.css" />
     <link rel="stylesheet" href="css/mobile.css" />
-    <title>Как работает Melby</title>
+    <title>Регистрация</title>
   </head>
   <body>
 <!-- Начало блока "Шапка" -->
@@ -51,7 +50,78 @@
 <!-- Конец блока "Шапка" -->
     <!-- Начало блока "Содержимое" -->
     <div class="container">
-      <main></main>
+      <main>
+        <section class="registration">
+          <div class="login-top-panel">
+            <h1 class="title">Регистрация</h1>
+            <img src="images/close.png" alt="" class="close" />
+          </div>
+          <form action="" class="login-form">
+            <input
+              type="text"
+              class="login-form-text"
+              placeholder="Логин"
+              name="login"
+            />
+            <input
+              type="email"
+              class="login-form-text"
+              placeholder="Email"
+              name="email"
+            />
+            <div class="password">
+              <input
+                type="password"
+                class="login-form-password"
+                placeholder="Пароль"
+                name="password"
+              />
+              <a href="#" class="password-control"></a>
+            </div>
+            <div class="password">
+              <input
+                type="password"
+                class="login-form-password"
+                placeholder="Пароль"
+                name="password"
+              />
+              <a href="#" class="password-control1"></a>
+            </div>
+
+            <button type="submit" class="form-button">
+              Зарегистрироваться
+            </button>
+          </form>
+
+          <div class="checkbox-box">
+            <input
+              type="checkbox"
+              id="checkbox"
+              name="checkbox"
+              class="checkbox"
+              checked
+            />
+            <label for="checkbox">
+              <div class="checkbox-label">
+                <div class="label">
+                  <span>Я ознакомлен с &nbsp;</span>
+                  <a href="userAgreement.html"> "Пользовательским </a>
+                </div>
+                <div class="label">
+                  <a href="userAgreement.html"> соглашением" </a>
+                </div>
+              </div>
+            </label>
+          </div>
+
+          <div class="login-footer">
+            <div class="footer-box">
+              <p class="login-footer-text">Уже есть аккаунт?&nbsp;</p>
+              <a href="userAgreement.html"> Войти</a>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
     <!-- Конец блока "Содержимое" -->
 <!-- Начало блока "Подвал" -->
