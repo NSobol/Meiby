@@ -10,7 +10,7 @@ body {
   background: #1e1e1e;
 }
 
-main {
+.main {
   padding: 0 105px;
 }
 
@@ -62,4 +62,232 @@ main {
 .small {
   font-size: 12px;
   line-height: 15px;
+}
+
+.myaccount {
+}
+
+.myaccount-box {
+  width: 1230px;
+  height: 379px;
+  background: #27262b;
+  border-radius: 16px;
+  margin-top: 40px;
+}
+
+.myaccount-box-header {
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #131218;
+}
+
+.myaccount-box-header-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 41px;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+  padding: 7px 0 8px 0;
+}
+
+.myaccount-box-header-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 10px;
+
+  width: 287px;
+  height: 56px;
+  background: #cafc01;
+  border-radius: 8px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: #000000;
+}
+
+.myaccount-box-body {
+  padding: 24px;
+}
+.myaccount-box-body-text {
+  background-color: #131218;
+  width: 1182px;
+  height: 65px;
+  padding: 21px 29px 20px 24px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  border-left: 8px solid #b153e0;
+  border-radius: 8px;
+  margin: 16px 0;
+}
+
+.myaccount-box-body-text:first-child {
+  margin-top: 0;
+  padding: 7px 29px 10px 24px;
+}
+
+.myaccount-box-body-text:last-child {
+  margin-bottom: 0;
+  border-left-color: #fc0101;
+  padding: 9px 29px 8px 24px;
+}
+.violet {
+  color: #b153e0;
+}
+
+.history-title {
+  width: 119px;
+  height: 35px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+  margin: 49px auto 36px;
+}
+
+.history-links {
+  margin: 0 auto 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.history-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 10px;
+
+  width: 287px;
+  height: 56px;
+  background: #27262b;
+  border-radius: 8px 0px 0px 8px;
+  color: #cafc01;
+  margin-right: 2px;
+}
+
+.history-link2 {
+  border-radius: 0px 0px 0px 0px;
+}
+
+.history-link-green {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 10px;
+
+  width: 281px;
+  height: 56px;
+  background: #cafc01;
+  border-radius: 0px 8px 8px 0px;
+  color: #131218;
+}
+
+.translation-field {
+  width: 668px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.label {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.translation-login-field {
+  width: 323px;
+  height: 45px;
+  background: #2b2b2b;
+  border-radius: 8px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(255, 255, 255, 0.7);
+  opacity: 0.6;
+  border: none;
+  padding-left: 12px;
+}
+.translation-sum-box {
+  width: 323px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.translation-sum-box img {
+  padding: 0 6px 0 12px;
+}
+.translation-sum-field {
+  width: 287px;
+  height: 45px;
+  background: #2b2b2b;
+  border-radius: 8px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(255, 255, 255, 0.7);
+  border: none;
+  padding-left: 12px;
+}
+
+.translation-send {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 10px;
+
+  width: 287px;
+  height: 56px;
+  background: #cafc01;
+  border-radius: 8px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: #000000;
+  margin-top: 36px;
 }

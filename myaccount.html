@@ -43,37 +43,68 @@
 <!-- Конец блока "Шапка" -->
     <!-- Начало блока "Содержимое" -->
     <main class="main">
-      <section class="refill">
-        <div class="refill-account">
-          <h1 class="refill-account-title">Пополнение счета Monero (XMR)</h1>
-          <div class="refill-account-text">
-            <p>
-              Отправка средств происходит в РУЧНОМ режиме. Для осуществления
-              отправки - Вам необходимо сделать следующие действия описанные
-              ниже, после чего обратится в чат поддержки:
-            </p>
-            <p>
-              ВАЖНО: курс по заявке будет зафиксирован на 1 час! Если в течение
-              этого времени не получено ни одно подтверждение от сети Monero,
-              тогда курс зафиксируется в момент получения 1-го подтверждения,
-              обмен выполнен после поступления средств на наш кошелек Monero.
-            </p>
-            <br />
-            <p>
-              Шаг 1. Перейдите на один из предоставленых обменников:
-              <span class="green"
-                >Муха | &nbsp;60сек&nbsp;| &nbsp;TipTopObmen&nbsp;|
-                &nbsp;BTCWorm&nbsp;| &nbsp;Top-Exchange&nbsp;|</span
-              >
-            </p>
-            <p>
-              Шаг 2. Переведите сумму пополнения на кошелек:
-              <span class="green small"></span>
-                473vscBxk8iYvr1ykCuEHHHfM2ogWsu8PfEdGhjXshsdMundwC4caitBS93McNfSDJJJxGzY27qzsM87diXPVh6sSVjRaJD</span
-              >
-            </p>
-            <p>Шаг 3. Предоставьте чек об оплате в поддержку.</p>
+      <section class="myaccount">
+        <div class="myaccount-box">
+          <div class="myaccount-box-header">
+            <div class="myaccount-box-header-text">Мой счет: 20500₽</div>
+            <a href="refill.html" class="myaccount-box-header-link"
+              >Пополнить счет</a
+            >
           </div>
+
+          <div class="myaccount-box-body">
+            <p class="myaccount-box-body-text">
+              melby.ru не является банком, платежной системой или иной
+              финансовой организацией и не ведет расчетные счета пользователей.
+              Кабинет melby.ru обеспечивает лишь удобство расчетов между
+              Клиентами.
+            </p>
+            <p class="myaccount-box-body-text">
+              Перевод осуществляется в течении 24ч.
+            </p>
+            <div class="myaccount-box-body-text">
+              ❮nickname❯, на данный момент, переводы и выводы для вашей учетной
+              записи приостановлены. Описание причины ограничений вы можете
+              найти в <span class="violet">системных сообщениях</span>.
+            </div>
+          </div>
+        </div>
+
+        <div class="history">
+          <h2 class="history-title">История</h2>
+          <div class="history-links">
+            <a href="#0" class="history-link">История пополений</a
+            ><a href="#0" class="history-link history-link2"
+              >Выводы по реквизитам</a
+            ><a href="#0" class="history-link-green">Перевод пользователю</a>
+          </div>
+        </div>
+
+        <div class="translation">
+          <div class="translation-field">
+            <div class="label">Логин пользователя</div>
+            <input
+              type="text"
+              id="login"
+              name="login"
+              placeholder="login"
+              class="translation-login-field"
+            />
+          </div>
+          <div class="translation-field">
+            <div class="label">Сумма</div>
+            <div class="translation-sum-box">
+              <input
+                type="text"
+                id="sum"
+                name="sum"
+                placeholder="Например, 450 "
+                class="translation-sum-field"
+              />
+              <img src="images/rub.png" alt="" />
+            </div>
+          </div>
+          <button type="submit" class="translation-send">Отправить</button>
         </div>
       </section>
     </main>
