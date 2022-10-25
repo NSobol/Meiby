@@ -1,0 +1,65 @@
+/*Стили страниц Мой счет*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1e1e1e;
+}
+
+main {
+  padding: 0 105px;
+}
+
+.refill {
+  width: 100%;
+  height: 318px;
+  background: #27262b;
+  border-radius: 16px;
+  margin-top: 40px;
+  margin-bottom: 456px;
+}
+.refill-account {
+  padding: 31px 105px 30px 21px;
+}
+.refill-account-title {
+  padding-left: 3px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 41px;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+}
+
+.refill-account-text {
+  margin-top: 24px;
+  width: 1104px;
+}
+
+.refill-account-text p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.green {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #cafc01;
+}
+
+.small {
+  font-size: 12px;
+  line-height: 15px;
+}
