@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/agreement_desktop.css" />
     <link rel="stylesheet" href="css/tablet.css" />
     <link rel="stylesheet" href="css/mobile.css" />
-    <title>Мой счет</title>
+    <title>История переводов: вывод по реквизитам</title>
   </head>
   <body>
 <!-- Начало блока "Шапка" -->
@@ -74,37 +74,73 @@
           <h2 class="history-title">История</h2>
           <div class="history-links">
             <a href="#0" class="history-link">История пополений</a
-            ><a href="#0" class="history-link history-link2"
+            ><a
+              href="#0"
+              class="history-link history-link2 history-link-conclusion-green"
               >Выводы по реквизитам</a
-            ><a href="#0" class="history-link-green">Перевод пользователю</a>
+            ><a href="#0" class="history-link-green history-link-conclusion"
+              >Перевод пользователю</a
+            >
           </div>
         </div>
 
-        <div class="translation">
-          <div class="translation-field">
-            <div class="label">Логин пользователя</div>
-            <input
-              type="text"
-              id="login"
-              name="login"
-              placeholder="login"
-              class="translation-login-field"
-            />
-          </div>
-          <div class="translation-field">
-            <div class="label">Сумма</div>
-            <div class="translation-sum-box">
-              <input
-                type="text"
-                id="sum"
-                name="sum"
-                placeholder="Например, 450 "
-                class="translation-sum-field"
-              />
-              <img src="images/rub.png" alt="" />
+        <div class="translation conclusion">
+          <div class="history-conclusion">
+            <div class="translation-field field1">
+              <div class="translation-field-name">ID</div>
+              <div class="translation-field-value">110</div>
+            </div>
+            <div class="translation-field field2">
+              <div class="translation-field-name">Дата</div>
+              <div class="translation-field-value">2022-09-18 19:50</div>
+            </div>
+            <div class="translation-field field7">
+              <div class="translation-field-name">Тип реквезита</div>
+              <div class="translation-field-value">Сбербанк</div>
+            </div>
+            <div class="translation-field field6">
+              <div class="translation-field-name">Номер счета</div>
+              <div class="translation-field-value">2019232193</div>
+            </div>
+            <div class="translation-field field4">
+              <div class="translation-field-name">Сумма</div>
+              <div class="translation-field-value">50000₽</div>
+            </div>
+            <div class="translation-field field5">
+              <div class="translation-field-name">Статус</div>
+              <div class="translation-field-value status-green">
+                Оплачена <img src="/images/done_all.png" alt="" />
+              </div>
             </div>
           </div>
-          <button type="submit" class="translation-send">Отправить</button>
+          <div class="history-conclusion">
+            <div class="translation-field field1">
+              <div class="translation-field-name">ID</div>
+              <div class="translation-field-value">110</div>
+            </div>
+            <div class="translation-field field2">
+              <div class="translation-field-name">Дата</div>
+              <div class="translation-field-value">2022-09-18 19:50</div>
+            </div>
+            <div class="translation-field field7">
+              <div class="translation-field-name">Тип реквезита</div>
+              <div class="translation-field-value">Сбербанк</div>
+            </div>
+            <div class="translation-field field6">
+              <div class="translation-field-name">Номер счета</div>
+              <div class="translation-field-value">2019232193</div>
+            </div>
+            <div class="translation-field field4">
+              <div class="translation-field-name">Сумма</div>
+              <div class="translation-field-value">50000₽</div>
+            </div>
+            <div class="translation-field field5">
+              <div class="translation-field-name">Статус</div>
+              <div class="translation-field-value status-green">
+                Оплачена <img src="/images/done_all.png" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>

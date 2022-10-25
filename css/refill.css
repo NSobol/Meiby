@@ -291,3 +291,103 @@ body {
   color: #000000;
   margin-top: 36px;
 }
+
+.history-translations {
+  width: 1230px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 117px;
+
+  width: 1230px;
+  height: 96px;
+
+  background: #27262b;
+  border-radius: 8px 8px 0px 0px;
+  margin-top: 24px;
+  margin-bottom: 152px;
+}
+
+.translation-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  margin: 0;
+}
+
+.field1 {
+  width: 35px;
+}
+
+.field2 {
+  width: 167px;
+}
+.field3 {
+  width: 93px;
+}
+.field4 {
+  width: 70px;
+}
+.field5 {
+  width: 122px;
+}
+.field6 {
+  width: 116px;
+}
+
+.field7 {
+  width: 112px;
+}
+.translation-field-name {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.translation-field-value {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+}
+
+.status-green {
+  color: #cafc01;
+  margin-right: 4px;
+}
+.history-conclusion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+
+  width: 1230px;
+  height: 96px;
+  background: #27262b;
+  border-radius: 8px 8px 0px 0px;
+  margin-bottom: 3px;
+}
+
+.history-link-conclusion-green {
+  background: #cafc01;
+  color: #131218;
+}
+
+.history-link-conclusion {
+  background: #27262b;
+  color: #cafc01;
+}
+.conclusion {
+  margin-bottom: 136px;
+}
