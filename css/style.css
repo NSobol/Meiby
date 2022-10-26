@@ -53,6 +53,7 @@ body {
 }
 header,
 footer {
+  position: relative;
   background-color: #27262b;
 }
 
@@ -72,18 +73,7 @@ footer {
 }
 
 .header-logotype {
-  width: 69px;
   height: 30px;
-}
-
-.menu-button,
-.menu-button-label {
-  display: none;
-}
-
-.menu {
-  margin-left: 22.5px;
-  margin-right: 22.5px;
 }
 
 .menu-list {
@@ -91,7 +81,6 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 449px;
   height: 24px;
 }
 
@@ -106,7 +95,6 @@ footer {
 }
 
 .menu-authorization {
-  width: 221px;
   height: 20px;
   display: flex;
   flex-direction: row;
@@ -143,14 +131,12 @@ footer {
 }
 
 .garant-service-card-box {
-  width: 568px;
   height: 219px;
   padding: 183px 0px 226px;
   margin-right: 64px;
 }
 
 .garant-service-card-box-title {
-  width: 510px;
   height: 123px;
   font-family: "Mulish-Bold";
   font-style: normal;
@@ -173,8 +159,6 @@ footer {
 }
 
 .garant-service-card-box-buttons button {
-  width: 287px;
-  height: 56px;
   background: #cafc01;
   border-radius: 8px;
   display: flex;
@@ -196,6 +180,7 @@ footer {
   flex-direction: row;
   align-items: center;
 }
+
 .play-button img {
   width: 56px;
   height: 56px;
@@ -213,8 +198,6 @@ footer {
 }
 
 .garant-service-card-picture {
-  width: 600px;
-  height: 628px;
   margin: 0;
   overflow: hidden;
 }
@@ -256,8 +239,6 @@ footer {
   align-items: flex-start;
   padding: 0px;
   gap: 24px;
-  width: 594px;
-  height: 361px;
 }
 
 .secure-transaction-card-box-title {
@@ -290,8 +271,6 @@ footer {
   font-size: 16px;
   line-height: 150%;
   color: #ffffff;
-  width: 594px;
-  height: 144px;
   padding-right: 76px;
 }
 
@@ -302,8 +281,6 @@ footer {
   align-items: center;
   padding: 16px 24px;
   gap: 10px;
-  width: 287px;
-  height: 56px;
   background: #cafc01;
   border-radius: 8px;
 
@@ -357,20 +334,17 @@ footer {
 }
 
 .button1 {
-  width: 287px;
   background: #cafc01;
   border-radius: 8px 0px 0px 8px;
   color: #131218;
 }
 
 .button2 {
-  width: 285px;
   background: #27262b;
   color: #cafc01;
 }
 
 .button3 {
-  width: 281px;
   background: #27262b;
   border-radius: 0px 8px 8px 0px;
   color: #cafc01;
@@ -386,8 +360,6 @@ footer {
 }
 
 .servis-work-stage {
-  width: 246px;
-  height: 336px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -403,11 +375,6 @@ footer {
 
 .stage3 {
   padding: 0 33px;
-}
-
-.servis-work-stage img {
-  width: 180px;
-  height: 180px;
 }
 
 .servis-work-stage-title {
@@ -458,10 +425,6 @@ footer {
   align-items: center;
 }
 
-.servis-scheme-box-left {
-  width: 495px;
-}
-
 .expanded {
   height: 153px;
   display: flex;
@@ -484,8 +447,6 @@ footer {
   align-items: center;
   padding: 16px;
   gap: 8px;
-  width: 495px;
-  height: 73px;
   background: #27262b;
   border-radius: 10px;
   margin-bottom: 24px;
@@ -497,9 +458,6 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 0px;
-
-  width: 451px;
-  height: 41px;
 }
 
 .servis-scheme-stage-text div {
@@ -517,8 +475,6 @@ footer {
 }
 
 .expanded-text {
-  width: 350px;
-  height: 72px;
   font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
@@ -539,7 +495,6 @@ footer {
 }
 
 .servis-scheme-box-right {
-  width: 316px;
   margin-top: -15px;
 }
 
@@ -574,9 +529,6 @@ footer {
   align-items: flex-start;
   padding: 16px 24px;
   gap: 10px;
-
-  width: 314px;
-  height: 56px;
   background: #131218;
   border: 1px solid #cafc01;
   border-radius: 8px;
@@ -613,7 +565,6 @@ footer {
 }
 
 ul.carusel {
-  width: 1230px;
   position: relative;
   list-style: none;
   margin: 0 -210px;
@@ -625,8 +576,6 @@ ul.carusel {
 .review {
   display: flex;
   flex-direction: column;
-  width: 285px;
-  height: 228px;
   margin-right: 30px;
 }
 
@@ -649,13 +598,7 @@ ul.carusel {
   margin-left: 8px;
 }
 
-.review-title-box img {
-  width: 36px;
-  height: 36px;
-}
 .review-title-box .avatar {
-  width: 36px;
-  height: 36px;
   background: #b153e0;
   border-radius: 3px;
   font-family: "Mulish";
@@ -672,9 +615,6 @@ ul.carusel {
   flex-direction: column;
   padding: 16px;
   gap: 8px;
-
-  width: 285px;
-  height: 176px;
   background: #27262b;
   border-radius: 4px;
 }
@@ -696,16 +636,11 @@ ul.carusel {
 .review-body-header-count {
   padding: 4px 10px;
   gap: 10px;
-
-  width: 96px;
-  height: 28px;
   background: #131218;
   border-radius: 8px;
 }
 
 .review-body-stars {
-  width: 100px;
-  height: 20px;
   margin-bottom: 8px;
 }
 
@@ -753,7 +688,6 @@ ul.carusel {
 }
 
 .block {
-  width: 812px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 76px;
@@ -773,9 +707,6 @@ ul.carusel {
   letter-spacing: 0.012em;
   color: #ffffff;
 }
-.advantages-reliability-card-box {
-  width: 395px;
-}
 
 .advantages-reliability-card-box ul {
   height: 360px;
@@ -794,17 +725,12 @@ ul.carusel {
   padding-bottom: 25px;
 }
 .advantages-reliability-card-picture {
-  width: 257px;
-  height: 353px;
   margin-top: 15px;
   margin-right: 99px;
   margin-left: 50px;
 }
+
 .advantages-button {
-  width: 287px;
-  height: 56px;
-  left: 576px;
-  top: 5226px;
   background: #cafc01;
   border-radius: 8px;
   margin-right: 472px;
@@ -821,8 +747,6 @@ ul.carusel {
 }
 
 .privacy-reliability-card-picture {
-  width: 243px;
-  height: 314px;
   margin-top: 10px;
   margin-right: 121px;
   margin-left: 65px;
@@ -840,8 +764,6 @@ ul.carusel {
 }
 
 .privacy-reliability-card-box ul {
-  width: 395px;
-  height: 288px;
   padding-left: 25px;
   padding-right: 50px;
 }
@@ -875,8 +797,6 @@ ul.carusel {
 }
 
 .сonvenience-reliability-card-box ul {
-  width: 395px;
-  height: 288px;
   padding-left: 25px;
   padding-right: 46px;
 }
@@ -890,11 +810,6 @@ ul.carusel {
   color: #ffffff;
   opacity: 0.9;
   padding-bottom: 23px;
-}
-
-.сonvenience-reliability-card-picture {
-  width: 364px;
-  height: 364px;
 }
 
 /* Подвал */
@@ -915,8 +830,6 @@ ul.carusel {
 }
 
 .footer-logotype {
-  width: 69px;
-  height: 30px;
   margin-right: 181px;
 }
 
@@ -925,8 +838,6 @@ ul.carusel {
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  width: 494px;
-  height: 24px;
 }
 
 .footer-menu-list {
@@ -950,13 +861,9 @@ ul.carusel {
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
-  width: 235.89px;
-  height: 36px;
 }
 
 .copyright {
-  width: 278px;
-  height: 24px;
   margin-top: 16px;
   margin-bottom: 8px;
   font-family: "Mulish";
@@ -969,29 +876,185 @@ ul.carusel {
   opacity: 0.7;
 }
 
-@media (min-width: 1440px) {
-  body {
-    position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1440px;
-  }
+/* Стили для пользовательского соглашения */
+ol {
+  list-style: none;
+  counter-reset: li;
+}
 
-  .header-content {
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+ol > li::before {
+  counter-increment: li;
+  content: counters(li, ".") ". ";
+}
 
-  .footer-content {
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.user-agreement-header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .container {
-    max-width: 1440px;
-    margin-right: auto;
-    margin-left: auto;
-  }
+.user-agreement-header-logogroup {
+  padding-top: 28.5px;
+  padding-bottom: 28.5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.user-agreement-header-logogroup-text {
+  margin-left: 24px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.user-agreement-header-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 36px;
+}
+
+.transactions {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.messages-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+}
+.messages-box-link {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.account-box-link {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  opacity: 0.7;
+}
+.account-box-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #b153e0;
+}
+
+.person-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+}
+
+.user-agreement-container {
+  margin-right: 105.11px;
+  margin-left: 105px;
+}
+
+.user-agreement-title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 41px;
+  letter-spacing: 0.012em;
+  color: #ddd9d9;
+  margin-top: 71px;
+  margin-bottom: 36px;
+}
+
+.user-agreement-list-item {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ddd9d9;
+}
+
+.user-agreement-footer-content {
+  margin-top: 47px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 105px 22px;
+}
+
+.user-agreement-top-panel {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin-bottom: 16px;
+}
+
+.user-agreement-menu-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 64px;
+}
+
+.user-agreement-menu-list-item > .menu-link {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ddd9d9;
+}
+
+.user-agreement-menu-payment {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+}
+
+.user-agreement-copyright {
+  margin-top: 16px;
+  margin-bottom: 2px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.7;
 }

@@ -1,0 +1,307 @@
+@media (min-width: 1440px) {
+  body {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* Стили основной страницы */
+  /* шапка */
+  .header-content {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-logotype {
+    width: 69px;
+  }
+
+  .menu-button,
+  .menu-button-label {
+    display: none;
+  }
+
+  .menu-list {
+    width: 449px;
+  }
+
+  .menu {
+    margin-left: 22.5px;
+    margin-right: 22.5px;
+  }
+
+  .menu-authorization {
+    width: 221px;
+  }
+
+  /* Содержимое */
+  .container {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .garant-service-card-box {
+    width: 568px;
+  }
+
+  .garant-service-card-box-title {
+    width: 510px;
+  }
+
+  .garant-service-card-box-buttons button {
+    width: 287px;
+    height: 56px;
+  }
+
+  .play-button img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .garant-service-card-picture {
+    width: 600px;
+    height: 628px;
+  }
+
+  .chat-messages {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1360px;
+    top: 778px;
+  }
+
+  .secure-transaction-card-box {
+    width: 594px;
+    height: 361px;
+  }
+
+  .secure-transaction-card-box-text {
+    width: 594px;
+    height: 144px;
+  }
+
+  .secure-transaction-card-box button {
+    width: 287px;
+    height: 56px;
+  }
+
+  .button1 {
+    width: 287px;
+  }
+
+  .button2 {
+    width: 285px;
+  }
+
+  .button3 {
+    width: 281px;
+  }
+
+  .servis-work-stage {
+    width: 246px;
+    height: 336px;
+  }
+
+  .servis-work-stage img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .servis-scheme-box-left {
+    width: 495px;
+  }
+
+  .servis-scheme-stage {
+    width: 495px;
+    height: 73px;
+  }
+
+  .servis-scheme-stage-text {
+    width: 451px;
+    height: 41px;
+  }
+
+  .expanded-text {
+    width: 350px;
+    height: 72px;
+  }
+
+  .servis-scheme-box-right {
+    width: 316px;
+  }
+
+  .servis-scheme-box-right-button {
+    width: 314px;
+    height: 56px;
+  }
+
+  ul.carusel {
+    width: 1230px;
+  }
+
+  .review {
+    width: 285px;
+    height: 228px;
+  }
+
+  .review-title-box img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .review-title-box .avatar {
+    width: 36px;
+    height: 36px;
+  }
+
+  .review-body {
+    width: 285px;
+    height: 176px;
+  }
+
+  .review-body-header-count {
+    width: 96px;
+    height: 28px;
+  }
+
+  .review-body-stars {
+    width: 100px;
+    height: 20px;
+  }
+
+  .block {
+    width: 812px;
+  }
+
+  .advantages-reliability-card-box {
+    width: 395px;
+  }
+
+  .advantages-reliability-card-picture {
+    width: 257px;
+    height: 353px;
+  }
+
+  .advantages-button {
+    width: 287px;
+    height: 56px;
+  }
+
+  .privacy-reliability-card-picture {
+    width: 243px;
+    height: 314px;
+  }
+
+  .privacy-reliability-card-box ul {
+    width: 395px;
+    height: 288px;
+  }
+
+  .сonvenience-reliability-card-box ul {
+    width: 395px;
+    height: 288px;
+  }
+
+  .сonvenience-reliability-card-picture {
+    width: 364px;
+    height: 364px;
+  }
+  /* Подвал */
+  .footer-content {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-logotype {
+    width: 69px;
+    height: 30px;
+  }
+
+  .footer-menu {
+    width: 494px;
+    height: 24px;
+  }
+
+  .menu-payment {
+    width: 235.89px;
+    height: 36px;
+  }
+
+  .copyright {
+    width: 278px;
+    height: 24px;
+  }
+
+  /* Стили для пользовательского соглашения */
+  .user-agreement-header-content {
+    width: 1440px;
+    padding-left: 105px;
+    padding-right: 105px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .user-agreement-header-box {
+    width: 511px;
+    height: 39px;
+  }
+
+  .transactions {
+    width: 91px;
+    height: 24px;
+  }
+
+  .messages-box {
+    width: 113px;
+    height: 24px;
+  }
+
+  .account-box-link {
+    width: 70px;
+    height: 24px;
+  }
+
+  .account-box-text {
+    width: 64px;
+    height: 15px;
+  }
+
+  .person-box {
+    width: 129px;
+    height: 24px;
+  }
+
+  .user-agreement-container {
+    width: 1440px;
+    padding-right: 105.11px;
+    padding-left: 105px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .user-agreement-footer-content {
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .user-agreement-menu {
+    width: 658px;
+    height: 24px;
+  }
+
+  .user-agreement-menu-payment {
+    width: 235.89px;
+    height: 36px;
+  }
+
+  .user-agreement-copyright {
+    width: 278px;
+    height: 24px;
+  }
+}

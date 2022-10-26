@@ -66,6 +66,7 @@ body {
   flex-direction: column;
   padding: 0px;
 }
+
 .login-form-text,
 .login-form-password {
   width: 317px;
@@ -80,9 +81,11 @@ body {
   line-height: 15px;
   color: rgba(255, 255, 255, 0.7);
 }
+
 .login-form-text {
   margin-bottom: 16px;
 }
+
 .error {
   display: none;
   width: 314px;
@@ -128,6 +131,7 @@ body {
 .login-form-password .error {
   outline: 1px solid #d96262;
 }
+
 .form-button {
   display: flex;
   flex-direction: row;
@@ -178,6 +182,7 @@ body {
   justify-content: flex-start;
   align-items: center;
 }
+
 .login-footer-text {
   font-family: "Mulish";
   font-style: normal;
@@ -188,7 +193,280 @@ body {
   align-items: center;
   color: #ffffff;
 }
+
+.registration-login {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #cafc01;
+}
+
+/*Стили страницы регистрации*/
 .registration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 8px;
+  gap: 24px;
+
+  width: 390px;
+  height: 515px;
+  background: #131218;
+  border-radius: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+
+.registration-top-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 330px;
+  height: 42px;
+}
+
+.registration-title {
+  width: 290px;
+  height: 42px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+}
+
+.registration-close {
+  margin-left: 16px;
+  width: 24px;
+  height: 24px;
+}
+
+.registration-form {
+  height: 308px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.registration-form-text,
+.registration-form-password {
+  width: 317px;
+  height: 45px;
+  background: #2b2b2b;
+  border-radius: 8px;
+  padding-left: 12px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.registration-form-text {
+  margin-bottom: 16px;
+}
+
+.registration-form-password {
+  margin-bottom: 16px;
+}
+
+.password2 {
+  position: relative;
+}
+
+.password-control2 {
+  width: 20px;
+  height: 21px;
+  background: url(../images/hide_password.png) 0 0 no-repeat;
+  position: absolute;
+  left: 281.33px;
+  top: 12.25px;
+  right: 17.33px;
+  bottom: 18.25px;
+  display: inline-block;
+}
+
+.password-control1 {
+  width: 20px;
+  height: 21px;
+  background: url(../images/remove_red_eye.png) 0 0 no-repeat;
+  position: absolute;
+  left: 281.33px;
+  top: 12.25px;
+  right: 17.33px;
+  bottom: 18.25px;
+  display: inline-block;
+}
+
+.registration-form-text:focus,
+.registration-form-password:focus {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  padding-left: 12px;
+  outline: 1px solid #cafc01;
+}
+
+.registration-form-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 10px;
+  width: 317px;
+  height: 56px;
+  background: #cafc01;
+  border-radius: 8px;
+  margin-top: 8px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: #000000;
+}
+
+.checkbox-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 317px;
+  height: 30px;
+}
+
+.checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.checkbox + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.checkbox + label::before {
+  content: "";
+  display: inline-block;
+  flex-shrink: 0;
+  flex-grow: 0;
+  margin-right: 8px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 0.25em;
+}
+
+.checkbox + label::before {
+  background-image: url("../images/Checkbox-clear.png");
+  background-color: #131218;
+  width: 24px;
+  height: 24px;
+}
+
+.checkbox:checked + label::before {
+  background-image: url("../images/Checkbox.png");
+  width: 24px;
+  height: 24px;
+}
+
+.checkbox-label {
+  width: 285px;
+  height: 30px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.label span {
+  color: #ffffff;
+}
+
+.label p {
+  text-decoration-line: underline;
+  color: #cafc01;
+}
+
+.label a {
+  text-decoration-line: underline;
+  color: #cafc01;
+}
+
+.registration-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 315px;
+  height: 38px;
+}
+
+.registration-help {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #cafc01;
+}
+
+.registration-footer-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.registration-footer-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.registration-footer-box a {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
