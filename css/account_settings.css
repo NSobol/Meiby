@@ -10,6 +10,9 @@ body {
   background: #1e1e1e;
 }
 
+.settings-form-mobile {
+  display: none;
+}
 .account-settings {
   padding: 0 105px;
 }
@@ -94,4 +97,19 @@ body {
 .fields {
   width: 323px;
   border: none;
+}
+.password {
+  position: relative;
+}
+
+.password-control {
+  width: 20px;
+  height: 21px;
+  background: url(../images/hide_password.png) 0 0 no-repeat;
+  position: absolute;
+  left: 281.33px;
+  top: 12.25px;
+  right: 17.33px;
+  bottom: 18.25px;
+  display: inline-block;
 }

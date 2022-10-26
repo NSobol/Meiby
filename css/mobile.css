@@ -2,5 +2,260 @@
   body {
     display: flex;
     flex-direction: column;
+    padding: 0 5px;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .header-content {
+    padding: 10px;
+  }
+  .top-panel {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .menu-button,
+  .menu-button-label {
+    display: block;
+  }
+  .menu-list {
+    display: none;
+  }
+
+  .menu-authorization {
+    display: none;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .footer-panel {
+    flex-direction: column;
+  }
+
+  .footer-logotype {
+    margin-right: 0;
+  }
+
+  .footer-menu-list {
+    display: flex;
+    padding: 0px;
+    margin-top: 15px;
+    gap: 45px;
+    margin-bottom: 15px;
+  }
+
+  .user-agreement-header-content {
+    padding: 0 5px;
+  }
+  .user-agreement-header-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+  .user-agreement-footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .user-agreement-top-panel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 16px;
+  }
+
+  .user-agreement-menu-list {
+    align-items: center;
+    gap: 10px;
+  }
+
+  .user-agreement-menu-link {
+    font-size: 12px;
+  }
+
+  .user-agreement-copyright {
+    font-size: 12px;
+  }
+  .container {
+    padding: 0 5px;
+  }
+
+  .block-account {
+    width: 100%;
+  }
+
+  .block-account-title {
+    font-size: 21px;
+    padding-left: 0px;
+  }
+
+  .block-account-text {
+    width: 100%;
+    padding: 0;
+    font-size: 14px;
+  }
+
+  .chat {
+    height: 50px;
+    font-size: 15px;
+    align-items: center;
+  }
+
+  .exit {
+    height: 50px;
+    font-size: 15px;
+    align-items: center;
+  }
+  .account-settings {
+    padding: 0;
+    width: 100%;
+  }
+
+  .account-settings-title {
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .settings-form {
+    display: none;
+  }
+  .settings-form-mobile {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-left: 0;
+    flex-direction: column;
+  }
+
+  .settings-form-mobile label {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+
+  .settings-form-mobile input {
+    width: 95%;
+    height: 45px;
+    background: #2b2b2b;
+    border-radius: 8px;
+    border: transparent;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    opacity: 0.6;
+    padding-left: 12px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+  .settings-form-mobile button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 50px;
+    background: #cafc01;
+    border-radius: 8px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    color: #000000;
+  }
+  .password {
+    position: relative;
+  }
+
+  .password-control {
+    width: 20px;
+    height: 21px;
+    background: url(../images/hide_password.png) 0 0 no-repeat;
+    position: absolute;
+    left: 85%;
+    top: 48.25px;
+    right: 17.33px;
+    bottom: 18.25px;
+    display: inline-block;
+  }
+
+  .user-agreement-container {
+    margin: 0 0 20px 0;
+  }
+
+  .user-agreement-title {
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .main-refill {
+    padding: 0;
+  }
+  .refill {
+    width: 100%;
+    background: #27262b;
+    height: 100%;
+    margin-bottom: 40px;
+  }
+
+  .refill-account {
+    padding: 0;
+  }
+  .refill-account-title {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+  .refill-account-text {
+    padding: 0 5px 10px;
+    margin-top: 24px;
+    width: 100%;
+  }
+
+  .refill-account-text p {
+    font-size: 14px;
+    line-height: 150%;
+    word-break: break-all;
+  }
+
+  .green {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #cafc01;
+  }
+
+  .small {
+    font-size: 12px;
+    line-height: 15px;
   }
 }
