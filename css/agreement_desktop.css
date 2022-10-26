@@ -15,6 +15,17 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-Regular.woff) format("woff"),
+    url(../fonts/Inter-Regular.woff2) format("woff2"),
+    url(../fonts/Inter-Regular.ttf) format("truetype"),
+    url(../fonts/Inter-Regular.eot) format("eot"),
+    url(../fonts/Inter-Regular.eot?) format("eot");
+  font-weight: 400;
+  font-style: normal;
+}
+
 a {
   text-decoration: none;
   color: #000000;
@@ -249,7 +260,7 @@ ol > li::before {
   opacity: 0.7;
 }
 
-@media (min-width: 1441px) {
+@media (min-width: 1440px) {
   /* Стили для пользовательского соглашения */
   .user-agreement-header-content {
     width: 1440px;

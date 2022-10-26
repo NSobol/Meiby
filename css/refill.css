@@ -64,9 +64,6 @@ body {
   line-height: 15px;
 }
 
-.myaccount {
-}
-
 .myaccount-box {
   width: 1230px;
   height: 379px;
@@ -310,7 +307,7 @@ body {
   margin-bottom: 152px;
 }
 
-.translation-field {
+.translation-field-table {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
