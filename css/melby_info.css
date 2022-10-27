@@ -38,6 +38,9 @@
   padding: 0 20px;
 }
 
+.steps-mobile {
+  display: none;
+}
 .steps-box {
   display: flex;
   flex-direction: row;

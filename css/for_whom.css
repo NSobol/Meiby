@@ -3,8 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.title {
+.for-whom-title {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
@@ -17,7 +16,7 @@
   margin-bottom: 22px;
 }
 
-.subtitle {
+.for-whom-subtitle {
   width: 810px;
   height: 48px;
   font-family: "Mulish";
@@ -32,7 +31,7 @@
   padding: 0 25px;
 }
 
-.stages-box {
+.for-whom-stages-box {
   width: 752px;
   height: 48px;
   display: flex;
@@ -44,20 +43,20 @@
   margin-bottom: 36px;
 }
 
-.stages1,
-.stages2 {
+.for-whom-stages1,
+.for-whom-stages2 {
   width: 259px;
   height: 48px;
   margin-right: 24px;
 }
 
-.stages3 {
+.for-whom-stages3 {
   width: 186px;
   height: 48px;
   padding-right: 22px;
 }
 
-.stages {
+.for-whom-stages {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -70,11 +69,11 @@
   color: #ffffff;
 }
 
-.stages img {
+.for-whom-stages img {
   margin-right: 8px;
 }
 
-.transaction-stages-title {
+.for-whom-transaction-stages-title {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
@@ -88,7 +87,7 @@
   margin-bottom: 24px;
 }
 
-.transaction-stages-subtitle {
+.for-whom-transaction-stages-subtitle {
   width: 810px;
   height: 72px;
   margin-right: auto;
@@ -105,7 +104,7 @@
   color: #ffffff;
 }
 
-.transaction-stage {
+.for-whom-transaction-stage {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -125,46 +124,46 @@
   letter-spacing: 0.05em;
 }
 
-.transaction-stage-title {
+.for-whom-transaction-stage-title {
   display: flex;
   flex-direction: row;
 }
 
-.transaction-stage-title img {
+.for-whom-transaction-stage-title img {
   margin-right: 8px;
 }
 
-.transaction-stage-list {
+.for-whom-transaction-stage-list {
   list-style-type: disc;
   padding-left: 30px;
 }
 
-.transaction-stage-box1 {
+.for-whom-transaction-stage-box1 {
   width: 808px;
   height: 184px;
   margin-bottom: 36px;
 }
 
-.transaction-stage-box2 {
+.for-whom-transaction-stage-box2 {
   width: 808px;
   height: 544px;
   margin-bottom: 12px;
 }
 
-.transaction-stage-box3 {
+.for-whom-transaction-stage-box3 {
   width: 808px;
   height: 544px;
   margin-bottom: 36px;
 }
 
-.transaction-stage-box4 {
+.for-whom-transaction-stage-box4 {
   width: 808px;
   height: 160px;
   margin-bottom: 36px;
   padding-right: 25px;
 }
 
-.transaction-stage-box5 {
+.for-whom-transaction-stage-box5 {
   width: 809px;
   height: 165px;
   margin-bottom: 109px;
@@ -172,13 +171,13 @@
   border-left: 8px solid #fc0101;
 }
 
-.transaction-stage-box2 > ul li,
-.transaction-stage-box3 > ul li {
+.for-whom-transaction-stage-box2 > ul li,
+.for-whom-transaction-stage-box3 > ul li {
   margin-bottom: 25px;
   padding-right: 26px;
 }
 
-.chat-messages1 {
+.for-whom-chat-messages1 {
   position: absolute;
   width: 60px;
   height: 60px;

@@ -184,6 +184,9 @@ footer {
   margin-right: 64px;
 }
 
+.garant-mobile {
+  display: none;
+}
 .garant-service-card-box-title {
   height: 123px;
   font-family: "Mulish-Bold";
