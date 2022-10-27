@@ -10,7 +10,7 @@ body {
   background: #1e1e1e;
 }
 
-main {
+.main-status {
   padding: 0 105px;
 }
 
@@ -41,7 +41,7 @@ main {
   margin-right: 17px;
 }
 
-.status {
+.status-deal {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -59,7 +59,7 @@ main {
   color: #ffffff;
 }
 
-.status span {
+.status-deal span {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
@@ -243,7 +243,7 @@ main {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.chat {
+.chat-status {
   width: 1009px;
   height: 546px;
   background-color: #27262b;
