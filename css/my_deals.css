@@ -11,7 +11,7 @@ body {
   width: 100%;
 }
 
-main {
+.main-mydeals {
   padding: 0 105px;
 }
 .mydeals {
@@ -176,8 +176,6 @@ main {
   height: 21px;
   background: url(../images/arrow_drop_down_m.png) 0 0 no-repeat;
   position: absolute;
-  width: 20px;
-  height: 20px;
   left: 278px;
   top: 11px;
   display: inline-block;

@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="css/refill.css" />
+    <link rel="stylesheet" href="css/mydeals.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/desktop.css" />
     <link rel="stylesheet" href="css/tablet.css" />
     <link rel="stylesheet" href="css/mobile.css" />
-    <title>Мой счет</title>
+    <title>Мои сделки</title>
   </head>
   <body>
 <!-- Начало блока "Шапка" -->
@@ -43,69 +43,27 @@
 </header>
 <!-- Конец блока "Шапка" -->
     <!-- Начало блока "Содержимое" -->
-    <main class="main">
-      <section class="myaccount">
-        <div class="myaccount-box">
-          <div class="myaccount-box-header">
-            <div class="myaccount-box-header-text">Мой счет: 20500₽</div>
-            <a href="refill.html" class="myaccount-box-header-link"
-              >Пополнить счет</a
-            >
-          </div>
+    <main class="main-mydeals">
+      <section class="mydeals">
+        <div class="mydeals-text">Мои сделки</div>
+        <a href="my_deals_add.html" class="mydeals-link">Создать сделку</a>
+      </section>
 
-          <div class="myaccount-box-body">
-            <p class="myaccount-box-body-text">
-              melby.ru не является банком, платежной системой или иной
-              финансовой организацией и не ведет расчетные счета пользователей.
-              Кабинет melby.ru обеспечивает лишь удобство расчетов между
-              Клиентами.
-            </p>
-            <p class="myaccount-box-body-text">
-              Перевод осуществляется в течении 24ч.
-            </p>
-            <div class="myaccount-box-body-text">
-              ❮nickname❯, на данный момент, переводы и выводы для вашей учетной
-              записи приостановлены. Описание причины ограничений вы можете
-              найти в <span class="violet">системных сообщениях</span>.
+      <section class="mydeal">
+        <div class="mydeal-info">
+          <a href="#0" class="contractual">Перейти к сделке</a>
+          <div class="deal deal-number">Номер сделки <span>#4443434</span></div>
+          <div class="deal deal-name">
+            Название <span>Супер тупое назва...</span>
+          </div>
+          <div class="deal">Сумма <span>2000.00₽</span></div>
+          <div class="deal">
+            Статус
+            <div class="status">
+              <span class="green">Оплачена</span>
+              <img src="images/done_all.png" alt="" />
             </div>
           </div>
-        </div>
-
-        <div class="history">
-          <h2 class="history-title">История</h2>
-          <div class="history-links">
-            <a href="#0" class="history-link">История пополений</a
-            ><a href="#0" class="history-link history-link2"
-              >Выводы по реквизитам</a
-            ><a href="#0" class="history-link-green">Перевод пользователю</a>
-          </div>
-        </div>
-
-        <div class="translation">
-          <div class="translation-field">
-            <div class="label">Логин пользователя</div>
-            <input
-              type="text"
-              id="login"
-              name="login"
-              placeholder="login"
-              class="translation-login-field"
-            />
-          </div>
-          <div class="translation-field">
-            <div class="label">Сумма</div>
-            <div class="translation-sum-box">
-              <input
-                type="text"
-                id="sum"
-                name="sum"
-                placeholder="Например, 450 "
-                class="translation-sum-field"
-              />
-              <img src="images/rub.png" alt="" />
-            </div>
-          </div>
-          <button type="submit" class="translation-send">Отправить</button>
         </div>
       </section>
     </main>
